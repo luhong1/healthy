@@ -1,0 +1,8 @@
+com\itcast\service\ReportService.class
+com\itcast\service\OrderService.class
+com\itcast\service\CheckitemService.class
+com\itcast\service\MemberService.class
+com\itcast\service\UserService.class
+com\itcast\service\OrderSettingService.class
+com\itcast\service\SetmealService.class
+com\itcast\service\CheckGroupService.class

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itcast.dao.OrderSettingDao">
+    <sql id="ordersetting">
+        id,orderDate,number,reservations
+    </sql>
+    <insert id="add" parameterType="com.itcast.pojo.OrderSetting">
+       insert  into t_ordersetting(orderDate,number,reservations) values
+        (#{orderDate},#{number},#{reservations})
+    </insert>
+
+    <!--根据日期更新预约人数-->
+    <update id="editNumberByOrderDate" parameterType="com.itcast.pojo.OrderSetting">
+      update t_ordersetting set number=#{number} where orderDate=#{orderDate}
+    </update>
+    <!--根据日期更新预约的实际人数-->
+    <update id="editReservationsByOrderDate" parameterType="com.itcast.pojo.OrderSetting">
+      update t_ordersetting set reservations=#{reservations} where orderDate=#{orderDate}
+    </update>
+
+    <!--根据预约日期查询-->
+    <select id="findCountByOrderDate" parameterType="java.util.Date" resultType="long">
+        select count(id) from t_ordersetting where orderDate=#{orderDate}
+    </select>
+
+    <!--这个select查询语句，能够使代码更简洁：
+    SELECT  number,reservations,DAY( orderDate ) AS date FROM t_ordersetting WHERE YEAR ( orderDate ) = 2019 AND MONTH ( orderDate ) = 3-->
+    <!--根据日期范围来检查-->
+    <select id="getOrdersettingByMonth" parameterType="map" resultType="com.itcast.pojo.OrderSetting">
+        SELECT  id,orderDate,number,reservations,DAY( orderDate ) AS date FROM t_ordersetting WHERE YEAR ( orderDate ) = #{dateYear} AND MONTH ( orderDate ) = #{dateMonth}
+        <!--select <include refid="ordersetting" /> from t_ordersetting where orderDate between #{begin} and #{end}-->
+    </select>
+
+    <select id="findByOrderDate" parameterType="java.util.Date" resultType="com.itcast.pojo.OrderSetting">
+       select <include refid="ordersetting"/> from t_ordersetting where orderDate=#{orderDate};
+    </select>
+</mapper>

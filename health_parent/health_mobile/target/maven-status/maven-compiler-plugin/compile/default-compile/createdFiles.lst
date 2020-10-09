@@ -1,0 +1,4 @@
+com\itcast\controller\MemberController.class
+com\itcast\controller\OrderController.class
+com\itcast\controller\ValidateCode.class
+com\itcast\controller\SetmealController.class

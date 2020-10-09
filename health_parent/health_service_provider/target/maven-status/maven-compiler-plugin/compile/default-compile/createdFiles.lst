@@ -1,0 +1,17 @@
+com\itcast\dao\RoleDao.class
+com\itcast\dao\CheckitemDao.class
+com\itcast\dao\OrderSettingDao.class
+com\itcast\service\impl\CheckGroupServiceImpl.class
+com\itcast\service\impl\UserServiceImpl.class
+com\itcast\dao\CheckGroupDao.class
+com\itcast\dao\UserDao.class
+com\itcast\service\impl\CheckitemServicrImpl.class
+com\itcast\dao\MemberDao.class
+com\itcast\service\impl\MemberServiceImpl.class
+com\itcast\dao\PermissionDao.class
+com\itcast\service\impl\OrderServiceImpl.class
+com\itcast\service\impl\ReportServiceImpl.class
+com\itcast\service\impl\SetmealServiceImpl.class
+com\itcast\service\impl\OrderSettingServiceImpl.class
+com\itcast\dao\OrderDao.class
+com\itcast\dao\SetmealDao.class

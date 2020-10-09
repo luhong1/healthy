@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itcast.dao.SetmealDao">
+    <sql id="baseColums">
+        id,code,name,sex,helpCode,age,price,remark,attention,img
+    </sql>
+
+    <resultMap id="baseResultMap" type="com.itcast.pojo.Setmeal">
+        <!--数据库中的关键值时用id-->
+       <id column="id" property="id"/>
+        <!--不是关键值时用result-->
+        <result column="name" property="name"/>
+        <result column="code" property="code"/>
+        <result column="helpCode" property="helpCode"/>
+        <result column="sex" property="sex"/>
+        <result column="age" property="age"/>
+        <result column="price" property="price"/>
+        <result column="remark" property="remark"/>
+        <result column="attention" property="attention"/>
+        <result column="img" property="img"/>
+    </resultMap>
+     <resultMap id="findByIdResultMap" type="com.itcast.pojo.Setmeal" extends="baseResultMap">
+         <!--多对多的映射    collection中的property值是Setmeal中所对应集合里面的checkGroups值
+         ofType所要返回的类型   select写所要查询sql语句的对应地方的id名字  column对应的字段名字，传递参数到要查询的地方去-->
+         <collection property="checkGroups" ofType="com.itcast.pojo.CheckGroup"
+                     select="com.itcast.dao.CheckGroupDao.findCheckGroupById" column="id"
+         >
+         </collection>
+     </resultMap>
+    <!--增加套餐组-->
+    <insert id="add" parameterType="com.itcast.pojo.Setmeal">
+        <!--通过mybatis框架提供的selectKey标签获得自增产生的ID值-->
+        <!--resultType返回类型  order 先后顺序  keyProperty把取的值传给CheckGroup中的id-->
+        <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into t_setmeal(code,name,sex,helpCode,age,price,remark,attention,img)
+        values
+        (#{code,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},#{sex,jdbcType=CHAR},#{helpCode,jdbcType=VARCHAR},
+        #{age,jdbcType=VARCHAR},#{price,jdbcType=FLOAT},#{remark,jdbcType=VARCHAR},#{attention,jdbcType=VARCHAR},
+        #{img,jdbcType=VARCHAR})
+    </insert>
+     <!--绑定套餐组和检查组的id-->
+    <insert id="setCheckGroupAndCheckItem" parameterType="map">
+        insert into t_setmeal_checkgroup(setmeal_id,checkgroup_id)
+        values
+        <foreach collection="checkgroupIds"  item="item"  separator=",">
+            (#{setmealId},#{item})
+        </foreach>
+    </insert>
+     <!--查询所有和有条件的查询套餐组-->
+    <select id="selectByCondition" parameterType="String" resultType="com.itcast.pojo.Setmeal">
+        select <include refid="baseColums" /> from t_setmeal
+        <if test="value != null and value.length > 0">
+            where code = #{value} or name = #{value} or helpCode = #{value}
+        </if>
+    </select>
+    <!--根据id查询某个套餐组-->
+    <select id="findById" parameterType="int" resultType="com.itcast.pojo.Setmeal">
+         select <include refid="baseColums" /> from t_setmeal where id=#{id};
+    </select>
+
+    <select id="findfindSetmealIdsByCheckGroupIdById" parameterType="int" resultType="int">
+        select checkgroup_id from t_setmeal_checkgroup where setmeal_id=#{id};
+    </select>
+
+    <update id="edit" parameterType="com.itcast.pojo.Setmeal">
+        update t_setmeal
+        <set>
+            <if test="code != null">
+                code=#{code},
+            </if>
+            <if test="name != null">
+                name=#{name},
+            </if>
+            <if test="sex != null">
+                sex=#{sex},
+            </if>
+            <if test="helpCode != null">
+                helpCode=#{helpCode},
+            </if>
+            <if test="age != null">
+                age=#{age},
+            </if>
+            <if test="price != null">
+                price=#{price},
+            </if>
+            <if test="remark != null">
+                remark=#{remark},
+            </if>
+            <if test="attention != null">
+                attention=#{attention},
+            </if>
+            <if test="img != null">
+                img=#{img}
+            </if>
+        </set>
+        where id=#{id}
+    </update>
+    <delete id="deleteAssoication" parameterType="int">
+        delete from t_setmeal_checkgroup where setmeal_id=#{id};
+    </delete>
+
+    <delete id="delete" parameterType="int">
+        delete from t_setmeal where id=#{id};
+    </delete>
+
+    <select id="findAll" resultType="com.itcast.pojo.Setmeal">
+        select <include refid="baseColums" /> from t_setmeal;
+    </select>
+
+    <select id="findByIdDetail" parameterType="int" resultMap="findByIdResultMap">
+       select * from t_setmeal where id=#{id}
+    </select>
+
+    <select id="findSetmealCount" resultType="map">
+        SELECT s.name,count(o.id) value FROM t_setmeal s,t_order o WHERE s.id=o.setmeal_id GROUP BY s.name
+    </select>
+</mapper>

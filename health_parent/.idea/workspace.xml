@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c323ca9d-f6fd-434a-9b01-88fe7c355bfd" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gGbGWxVveIqLAPaUyVYUhJvNpL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/health_common/src/main/java/com/itcast" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_backend/src/main/webapp/template" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3816092" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Summer training\health_parent\health_backend\src\main\webapp\plugins\echarts" />
+      <recent name="F:\Summer training\health_parent\health_backend\src\main\webapp" />
+      <recent name="F:\Summer training\SpringSecurityDemo\src\main\webapp" />
+      <recent name="F:\Summer training\health_parent\health_service_provider\src\main\resources\com\itcast\dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.itcast" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itcast.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Summer training\health_parent\health_backend\src\main\webapp\template" />
+      <recent name="F:\Summer training\health_parent\health_backend\src\main\webapp\pages" />
+      <recent name="F:\Summer training\health_parent\health_backend\src\main\webapp\js" />
+      <recent name="F:\Summer training\health_parent\health_backend\src\main\resources" />
+      <recent name="F:\Summer training\health_parent\health_service_provider\src\main\resources\com\itcast\dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.health_service_provider [tomcat7:run]">
+    <configuration name="ReportController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.controller.ReportController" />
+      <module name="health_backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityDemo [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../SpringSecurityDemo" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="health_backend [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/health_backend" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="health_job [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/health_job" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="health_mobile [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/health_mobile" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="health_service_provider [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/health_service_provider" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
+        <item itemvalue="Application.ReportController" />
+        <item itemvalue="Maven.SpringSecurityDemo [tomcat7:run]" />
+        <item itemvalue="Maven.health_mobile [tomcat7:run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c323ca9d-f6fd-434a-9b01-88fe7c355bfd" name="默认更改列表" comment="" />
+      <created>1597743786970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597743786970</updated>
+      <workItem from="1597743801012" duration="3699000" />
+      <workItem from="1597751385872" duration="1601000" />
+      <workItem from="1597797221558" duration="3785000" />
+      <workItem from="1597826546218" duration="2251000" />
+      <workItem from="1597829156741" duration="742000" />
+      <workItem from="1597830374888" duration="13288000" />
+      <workItem from="1597883577305" duration="107000" />
+      <workItem from="1597883842047" duration="17260000" />
+      <workItem from="1597969581496" duration="38123000" />
+      <workItem from="1598172721188" duration="1434000" />
+      <workItem from="1598175014427" duration="45000" />
+      <workItem from="1598229479692" duration="58202000" />
+      <workItem from="1598432773130" duration="1405000" />
+      <workItem from="1598434296763" duration="1553000" />
+      <workItem from="1598497049609" duration="13500000" />
+      <workItem from="1598676702075" duration="18599000" />
+      <workItem from="1598772657740" duration="9562000" />
+      <workItem from="1599473405795" duration="10066000" />
+      <workItem from="1600084885147" duration="4523000" />
+      <workItem from="1600690811347" duration="23020000" />
+      <workItem from="1600783575685" duration="21046000" />
+      <workItem from="1600950334439" duration="30110000" />
+      <workItem from="1601206389486" duration="5160000" />
+      <workItem from="1601213469394" duration="6180000" />
+      <workItem from="1601793491523" duration="22474000" />
+      <workItem from="1601880253184" duration="29203000" />
+      <workItem from="1602049760577" duration="2216000" />
+      <workItem from="1602054889509" duration="19421000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="30" key="#HTTP_Proxy" timestamp="1597837985227">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="30" key="#HTTP_Proxy/0.0.1366.728@0.0.1366.728" timestamp="1597837985227" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597826781038">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597826781038" />
+    <state x="745" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1602063594525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="745" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602063594525" />
+    <state x="303" y="42" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1598429727288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="303" y="42" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1598429727288" />
+    <state x="322" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598504522626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="322" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1598504522626" />
+    <state x="425" y="222" width="516" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598504546470">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="425" y="222" width="516" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1598504546470" />
+    <state x="425" y="243" width="581" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1598504531846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="425" y="243" width="581" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1598504531846" />
+    <state x="275" y="22" key="#项目结构" timestamp="1601890450032">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#项目结构/0.0.1366.728@0.0.1366.728" timestamp="1601890450032" />
+    <state x="401" y="215" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598352603942">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="401" y="215" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1598352603942" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1601803186432">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1601803186432" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601802361909">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601802361909" />
+    <state width="1323" height="405" key="GridCell.Tab.0.bottom" timestamp="1602211365635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="405" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602211365635" />
+    <state width="1323" height="405" key="GridCell.Tab.0.center" timestamp="1602211365635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="405" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602211365635" />
+    <state width="1323" height="405" key="GridCell.Tab.0.left" timestamp="1602211365635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="405" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602211365635" />
+    <state width="1323" height="405" key="GridCell.Tab.0.right" timestamp="1602211365635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="405" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602211365635" />
+    <state width="1323" height="430" key="GridCell.Tab.1.bottom" timestamp="1602211365618">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602211365618" />
+    <state width="1323" height="430" key="GridCell.Tab.1.center" timestamp="1602211365618">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602211365618" />
+    <state width="1323" height="430" key="GridCell.Tab.1.left" timestamp="1602211365618">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602211365618" />
+    <state width="1323" height="430" key="GridCell.Tab.1.right" timestamp="1602211365618">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602211365618" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1598341300132">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1598341300132" />
+    <state x="76" y="0" key="SettingsEditor" timestamp="1600762577897">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="76" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600762577897" />
+    <state x="482" y="141" key="chooseDestDirectoryDialog" timestamp="1601818578574">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1601818578574" />
+    <state x="381" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1602054965146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602054965146" />
+    <state x="381" y="257" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600762182753">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="257" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1600762182753" />
+    <state x="57" y="58" key="new project wizard" timestamp="1601802403129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="58" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1601802403129" />
+    <state x="651" y="164" key="run.anything.popup" timestamp="1602068553369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="651" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602068553369" />
+    <state x="603" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602068215613">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="603" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602068215613" />
+    <state x="363" y="47" key="spring file set editor" timestamp="1598417775926">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="47" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1598417775926" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/checkitem.html</url>
+          <line>344</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html</url>
+          <line>86</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/health_backend/src/main/java/com/itcast/service1/SpringSecurityUserService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
